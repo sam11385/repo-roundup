@@ -22,6 +22,8 @@ pages_to_fetch = 2 # number of repos you have, divided by 100. kinda hack-y!
 
 For my personal implementation, I added the "archived" header and a line for a github token. You need the github token for private repositories. You'll need to generate your own github token, run it in your terminal with `export GITHUB_ACCESS_TOKEN=YOUR_TOKEN` then proceed with running the script.
 
+I also have a line that prints the number of characters in the GH token, just to verify that the token has worked. The number should be 40 characters. On top of that, there is also 
+
 Then, run the script:
 
 ```bash
@@ -34,29 +36,14 @@ Creates a file called `YOUR_ORG_repos.csv` as a list of all public repos from th
 * archived
 * html_url
 * description
-* homepage
 * language
 * created_at
 * updated_at
 
-## Team
+## Original Team
 
 * Derek Eder, DataMade
 
-## Errors and bugs
-
-If something is not behaving intuitively, it is a bug and should be reported.
-Report it here by creating an issue: https://github.com/datamade/readme-roundup/issues
-
-Help us fix the problem as quickly as possible by following [Mozilla's guidelines for reporting bugs.](https://developer.mozilla.org/en-US/docs/Mozilla/QA/Bug_writing_guidelines#General_Outline_of_a_Bug_Report)
-
-## Patches and pull requests
-
-Your patches are welcome. Here's our suggested workflow:
-
-* Fork the project.
-* Make your feature addition or bug fix.
-* Send us a pull request with a description of your work. Bonus points for topic branches!
 
 ## Copyright and attribution
 
